@@ -4,6 +4,8 @@ Benchmarks **Qwen1.5-1.8B** throughput on a RunPod H100 80GB using vLLM v0.21.0 
 
 ## Results (H100 80GB HBM3)
 
+![Throughput vs Dataset Size](throughput_vs_dataset.png)
+
 | Engine | n=3 | n=30 | n=300 |
 |--------|-----|------|-------|
 | HF | 25 samples/s | 33 samples/s | 36 samples/s |
